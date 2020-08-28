@@ -3,4 +3,5 @@ resources:
   - deployment.yaml
 images:
   - name: memcached
+    newName: harbor.gcpslab.xyz/library/memcached
     newTag: 1.5.20

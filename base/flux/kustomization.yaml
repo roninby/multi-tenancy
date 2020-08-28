@@ -9,4 +9,5 @@ configMapGenerator:
       - kubeconfig.yaml
 images:
   - name: fluxcd/flux
-    newTag: 1.17.0
+    newName: harbor.gcpslab.xyz/library/docker.io/fluxcd/flux
+    newTag: 1.20.2
